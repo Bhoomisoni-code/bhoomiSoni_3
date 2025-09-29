@@ -1,0 +1,181 @@
+html{
+    height: 1000vh;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.Container{
+    background-image:url(image.png);
+    height: 100vh;
+     color: white;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    background-blend-mode: darken;
+    background-color: rgba(3, 3, 3, 0.466);
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;  
+}
+
+.logo{
+    font-size: 30px;
+    padding-left: 40px;
+    margin-top: 8px;
+}
+.main{
+    margin-top: 130px;
+    padding-left: 40px;
+}
+
+.greet{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-size: 180px;
+    margin-bottom: 10px;
+}
+
+.intro{
+    font-size: 44px;
+    margin-bottom:10px ;
+    margin-left: 10px;
+}
+.detail{
+    margin-top: 20px;
+    width: 500px;
+    margin-left: 10px;
+}
+
+.btn{
+   width: 200px;
+   height: 80px;
+   border-radius: 20px;
+   background-color: white;
+   margin-top: 60px;
+   font-size: 25px;
+    color:black;
+}
+
+.items{
+    font-size: 20px;
+    color: white;
+    word-spacing: 1px;
+    margin-top: 10px;
+    
+
+}
+
+.tags{
+    color: white;
+    text-decoration: none;
+    padding-right: 30px;
+}
+
+.page2{
+    height: 150vh;
+    margin-top: 0.1px;
+    background: black
+}
+
+.page2item{
+     margin-left: 500px;
+     padding-top: 100px;
+     font-size: 25px;
+    
+}
+
+.tgs{
+     text-decoration: none;  
+     color: white;
+     margin-right: 60px;
+}
+.box-area{
+    color: rgb(2, 0, 0);
+    margin-top: 80px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+#box1{
+    height: 330px;
+    width: 300px;
+    border: 2px solid white;
+    background-image: url(image.....3.webp);
+    background-size: contain;
+    margin-right: 30px;
+    border-radius: 15px;
+    
+}
+
+
+#box2{
+    height: 330px;
+    width: 300px;
+    border: 2px solid white;
+    background-image: url(image.....5.jpeg);
+    background-size: contain;
+    margin-right: 30px;
+    border-radius: 15px;
+}
+
+
+#box3{
+    height: 330px;
+    width: 300px;
+    border: 2px solid white;
+    background-image: url(image....2.webp);
+    background-size: contain;
+    margin-right: 30px;
+    border-radius: 15px;
+}
+
+#box4{
+    height: 330px;
+    width: 300px;
+    border: 2px solid white;
+    background-image: url(image....6.webp);
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-right: 30px;
+    border-radius: 15px;
+}
+
+
+#box5{
+    height: 330px;
+    width: 300px;
+    border: 2px solid white;
+    background-image: url(image...1.avif);
+    background-size: contain;
+    margin-right: 30px;
+    border-radius: 15px;
+}
+
+
+#box6{
+    height: 330px;
+    width: 300px;
+    border: 2px solid white;
+    background-image: url(basket.jpg);
+    background-size: contain;
+    margin-right: 30px;
+    border-radius: 15px;
+}
+.btttn{
+    height: 47px;
+    width: 124px;
+    border-radius: 10px;
+    margin-left:86px ;
+    margin-top: 267px ;
+}
+
+

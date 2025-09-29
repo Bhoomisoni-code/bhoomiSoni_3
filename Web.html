@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nike Air Jordan</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      scroll-behavior: smooth;
+    }
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      background: #fff;
+    }
+    /* Navbar */
+    nav {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 50px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      z-index: 100;
+    }
+    nav h1 {
+      color: #d60000;
+      font-size: 24px;
+      font-weight: bold;
+    }
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+    nav ul li a {
+      text-decoration: none;
+      color: #333;
+      font-weight: 500;
+      transition: 0.3s;
+    }
+    nav ul li a:hover {
+      color: #d60000;
+    }
+    nav .cart {
+      display: flex;
+      align-items: center;
+      font-weight: bold;
+    }
+    /* Hero Section */
+ .hero {
+  height: 100vh;              /* full screen height */
+  width: 100wh;                /* full width */
+  background: url("https://images.unsplash.com/photo-1606813902914-1c50b08b7b79?auto=format&fit=crop&w=1600&q=80") 
+              no-repeat center center/cover;  /* full cover */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  position: relative;
+   
+    }
+    .hero h2 {
+      font-size: 48px;
+      margin-top: 20px;
+      color: #111;
+      animation: fadeIn 3s ease;
+    }
+    .hero p {
+      font-size: 20px;
+      color: #555;
+      margin-top: 10px;
+      animation: fadeIn 4s ease;
+    }
+    @keyframes zoomIn {
+      from { transform: scale(0.7); opacity: 0; }
+      to { transform: scale(1); opacity: 1; }
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; }
+      to { opacity: 1; }
+    }
+    /* Sections */
+    section {
+      padding: 80px 20px;
+      text-align: center;
+    }
+    section h2 {
+      font-size: 32px;
+      margin-bottom: 20px;
+      color: #111;
+    }
+    section p {
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 18px;
+      line-height: 1.6;
+    }
+    .design img {
+      margin-top: 30px;
+      max-width: 600px;
+      width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+    /* Cart Section */
+    .cart-section {
+      background: #f5f5f5;
+    }
+    .cart-section button {
+      margin-top: 20px;
+      padding: 15px 30px;
+      background: #d60000;
+      color: white;
+      font-size: 18px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    .cart-section button:hover {
+      background: #a00000;
+    }
+    /* Footer */
+    footer {
+      background: #111;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <h1>Nike Air Jordan</h1>
+    <ul>
+      <li><a href="#design">Design</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#cart">Cart</a></li>
+    </ul>
+    <div class="cart">🛒 <span id="cart-count">0</span></div>
+  </nav>
+
+  <!-- Hero Section -->
+  <div class="hero">
+    <img src="WhatsApp Image 2025-09-29 at 11.38.28_b3229ef3.jpg" alt="Nike Air Jordan"/>
+    <h2>Nike Air Jordan</h2>
+    <p>Elevate Your Game, Elevate Your Style</p>
+  </div>
+
+  <!-- Design Section -->
+  <section id="design" class="design">
+    <h2>Iconic Design</h2>
+    <p>The Nike Air Jordan is more than just a sneaker — it’s a cultural icon.
+       With premium materials, bold colorways, and unmatched comfort, the Air Jordan
+       defines streetwear and performance basketball shoes worldwide.</p>
+    <img src="image.png" alt="Air Jordan Design"/>
+  </section>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>Why Air Jordan?</h2>
+    <p>Born from Michael Jordan’s legendary career, these shoes inspire generations.
+       The craftsmanship, heritage, and exclusivity make Air Jordans a must-have for sneaker enthusiasts.</p>
+  </section>
+
+  <!-- Cart Section -->
+  <section id="cart" class="cart-section">
+    <h2>Grab Yours Now!</h2>
+    <p>Limited stock available. Don’t miss your chance to own the legend.</p>
+    <button onclick="addToCart()">Add to Cart 🛒</button>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Nike Air Jordan Showcase. All rights reserved.</p>
+  </footer>
+
+  <script>
+    let count = 0;
+    function addToCart() {
+      count++;
+      document.getElementById("cart-count").innerText = count;
+    }
+  </script>
+
+</body>
+</html>

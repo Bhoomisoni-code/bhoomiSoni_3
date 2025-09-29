@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.containert{
+    height: 500px;
+    background-image: url(WhatsApp\ Image\ 2025-09-29\ at\ 11.38.28_b3229ef3.jpg);
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+     margin-left: 35px;
+     margin-right: 35px;
+     margin-top: 0px;
+     border-radius: px;
+    height: 60px;
+    background-color: rgb(109, 154, 238);
+} 
+
+.items{
+    text-decoration: none;
+}
